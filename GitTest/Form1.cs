@@ -19,7 +19,7 @@ namespace GitTest
 
         private void btnDoSomething_Click(object sender, EventArgs e)
         {
-            lblResultText.Text = "The text you entered is " + txtEnteredText.Text;
+            lblResultText.Text = "Your name is " + txtEnteredText.Text;
         }
     }
 }
